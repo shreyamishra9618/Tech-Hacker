@@ -7,18 +7,18 @@ body, html {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: #333;
+  color: rgb(10, 71, 9);
 }
 
-a {
+body a{
   text-decoration: none;
-  color: #225ca3;
+ 
   font-weight: bold;
   transition: color .1s;
 }
 
 a:hover {
-  color: #3486eb;
+  color: #e8f387;
 }
 
 button {
@@ -33,28 +33,32 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color: #e8f387;
 }
 
 .post-list {
   margin: 0;
   padding: 0;
+  /* background-color: #c4f4c4; */
+  /* border: #084186; */
 }
 
 textarea, input {
   padding: .5%;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  background-color: #a0f88c;
+  border: 1px solid rgb(2, 85, 6);
 }
 
 textarea:focus, input:focus {
   outline: none;
-  border: 1px solid #3486eb;
+  border: 1px solid #073d7e;
 }
 
 textarea {
   min-width: 40%;
   min-height: 100px;
+  background-color: #cdf7c9;
 }
 
 form > div {
@@ -72,6 +76,7 @@ form label {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  background-color: #7da683;
 }
 
 header {
@@ -80,10 +85,19 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 1%;
+  background-color: #047c66;
+}
+ header a {
+  text-decoration: none;
+  color: #d1f99d;
+  font-weight: bold;
+  transition: color .1s;
 }
 
+
 header h1 {
-  font-size: 1em;
+  font-size: 2em;
+  color: rgb(241, 255, 178);
 }
 
 main {
@@ -97,7 +111,7 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: #65f3b8;
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;
@@ -106,20 +120,23 @@ main {
 
 .btn-no-style:hover {
   background: none;
-  color: #3486eb;
+  color: #e9f8a6;
 }
 
 .delete-post-btn {
-  background-color: #d41414;
+  background-color: #ad0202;
 }
 
 .delete-post-btn:hover {
-  background-color: #ff643d;
+  background-color: #ee7355;
 }
 
 .post {
   margin-bottom: 2%;
   line-height: 150%;
+  background-color:  #cdf7c9;
+  border-radius: 1%;
+  box-shadow: 5px 6px 3px #13293d;;
 }
 
 .post .title span {
@@ -175,4 +192,6 @@ footer {
   justify-content: center;
   padding: 1%;
   font-size: 110%;
+  background-color: #047c66;
+
 }
