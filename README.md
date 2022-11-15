@@ -42,4 +42,4 @@ The user must make sure to run mysql to get the db and tables. Once this is done
 ## Credits & Collaborations
 The site is created by Shreya Mishra.
  
- You can find other projects by Shreya:  [Shreya](https://github.com/shreyamishra9618)
+ You can find my other projects here:  [Shreya](https://github.com/shreyamishra9618)
